@@ -46,11 +46,20 @@
 		<!-- Landing Section Stars -->
 		
 		<div class="container-fluid p-md-5" id="landing">
-			<div class="row justify-content-center py-md-5 my-md-5 border rounded blur" id="landing-border">
+			<div class="row justify-content-center py-md-5 my-md-5 border rounded" id="landing-border">
 				<div class="col-md-3 my-5 my-md-0">
 					<img src="./images/me_sg1.jpg" class="img-fluid rounded">
 					<h4 class="text-white my-3 text-center">Full Stack Web Developer</h4>
-					
+					<div class="col justify-content-center d-flex d-grid gap-4 py-2 py-md-3">
+						<a href="https://www.facebook.com/ijorHee" target="_blank">
+			       		 <img class="contact-link" src="./images/facebookico.png"></a>
+			       		 <a href="https://github.com/jorhee" target="_blank">
+			       		 <img class="contact-link" src="./images/githubico.png"></a>
+			       		 <a href="https://gitlab.com/george280" target="_blank">
+			       		 <img class="contact-link" src="./images/gitlabico.png"></a>
+			       		 <a href="https://www.linkedin.com/in/george-michael-aparece-b4529227a/" target="_blank">
+			       		 <img class="contact-link" src="./images/linkedinico.png"></a>
+					</div>
 				</div>
 				<div class="col-md-7 ms-4 px-2">
 					<h4 id="landing-title" class="text-white">George Michael Aparece</h4>
@@ -71,18 +80,18 @@
 		<!-- Landing Section Ends -->
 
 		<!-- Projects Section Starts -->
-		<div class="container-fluid p-md-5 min-vh-100" id="projects">
+		<div class="container-fluid p-md-5 " id="projects">
 			<h1 class="text-center text-white">Projects</h1>
-			<div class="row d-flex flex-row justify-content-center py-md-3 my-md-3 d-grid gap-3">
-				<div class="col-md-4">
+			<div class="row d-flex justify-content-center py-md-3 my-md-3 d-grid gap-3 border rounded projects-border">
+				<div class="col-lg-3 col-md-6 col-sm-12">
 					<h3 class="project-heading text-center text-white">Web Development</h3>
 					<img src="images/webdev.jpg" class="project-image img-fluid">
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-3 col-md-6 col-sm-12">
 					<h3 class="project-heading text-center text-white">Mobile App Development</h3>
 					<img src="images/mobdev.png" class="project-image img-fluid">
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-3 col-md-6 col-sm-12">
 					<h3 class="project-heading text-center text-white">Back End Development</h3>
 					<img src="images/backend.jpg" class="project-image img-fluid">
 				</div>
@@ -96,7 +105,7 @@
 				<h1 class="text-center my-3 text-white">Tools</h1>
 				<!-- Carousel FrontEnd Starts -->
 				<div id="carousel-frontend" class="carousel-card row justify-content-center border p-auto m-auto">
-					<div class="col-md-8 col-lg-4 mx-4 my-3">
+					<div class="col-md-8 col-lg-5 mx-4 my-3">
 						<h2 class="text-center text-white">Front End</h2>
 						<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 						  <div class="carousel-indicators">
@@ -142,7 +151,7 @@
 
 				<!-- Carousel BackEnd Starts -->
 				<div id="carousel-backend" class="carousel-card row justify-content-center border p-auto m-auto">
-					<div class="col-md-8 col-lg-4 mx-4 my-3">
+					<div class="col-md-8 col-lg-5 mx-4 my-3">
 						<h2 class="text-center text-white">Back End</h2>
 						<div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
 						  <div class="carousel-indicators">
@@ -188,7 +197,7 @@
 
 				<!-- Carousel Other Tools Starts -->
 				<div id="carousel-other" class="carousel-card row justify-content-center border p-auto m-auto">
-					<div class="col-md-8 col-lg-4 mx-4 my-3">
+					<div class="col-md-8 col-lg-5 mx-4 my-3">
 						<h2 class="text-center text-white">Other Tools</h2>
 						<div id="carouselExampleCaptions3" class="carousel slide" data-bs-ride="carousel">
 						  <div class="carousel-indicators">
@@ -238,35 +247,21 @@
 		<!-- Contact Section Starts -->
 		<div class="container-fluid min-vh-100" id="contact">
 			<div class="row justify-content-center p-3 p-md-2">
-				<h1 class="text-white text-center">Contact</h1>
+				<h1 class="text-white text-center pt-5">Contact</h1>
 			</div>
-			<div class="row">
-				<div class="col-md-1">
-					
-				</div>
-				<div class="col-md-4 p-md-3 align-items-center border contact-card">
-					<h3 class="text-center text-white my-2">Visit Me</h3>
+			<div class="row justify-content-center mx-md-5 my-md-5 border rounded contact-card">
+				<div class="col-md-7 p-md-2 align-items-center">
+					<h2 class="text-center text-white my-2">Visit Me</h2>
 					<div class="col d-flex justify-content-center">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.2236789943277!2d125.61230661122433!3d7.100054216164008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96d76de5541e1%3A0x68480d788a92ed4a!2sBillers%20Mind%20BPO!5e0!3m2!1sen!2sph!4v1723699072490!5m2!1sen!2sph" width="400" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.2236789943277!2d125.61230661122433!3d7.100054216164008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96d76de5541e1%3A0x68480d788a92ed4a!2sBillers%20Mind%20BPO!5e0!3m2!1sen!2sph!4v1723728982380!5m2!1sen!2sph" width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
 				</div>
-				<div class="col-md-2 p-md-3 border contact-card">
-					<div class="col d-flex flex-column align-items-center d-grid gap-3 py-2 py-md-3">
-						<a href="https://www.facebook.com/ijorHee" target="_blank">
-			       		 <img class="contact-link" src="./images/facebookico.png"></a>
-			       		 <a href="https://github.com/jorhee" target="_blank">
-			       		 <img class="contact-link" src="./images/githubico.png"></a>
-			       		 <a href="https://gitlab.com/george280" target="_blank">
-			       		 <img class="contact-link" src="./images/gitlabico.png"></a>
-			       		 <a href="https://www.linkedin.com/in/george-michael-aparece-b4529227a/" target="_blank">
-			       		 <img class="contact-link" src="./images/linkedinico.png"></a>
-					</div>
-				</div>
-				<div class="col-md-4 p-md-3 border contact-card">
-					<h3 class="text-center text-white my-2">Message Me</h3>
+				
+				<div class="col-md-5 p-md-2">
+					<h2 class="text-center text-white my-2">Message Me</h2>
 					<div class="col d-flex justify-content-center">
 						<form class="text-center">
-							<div class="bg-primary justify-content-center py-md-3">
+							<div class="container-fluid rounded bg-primary justify-content-center py-md-3">
 								<div class="mb-3 px-3">
 								  <label for="name" class="form-label">Full Name</label>
 								  <input type="text" class="form-control" id="name" placeholder="Your Name">
@@ -294,8 +289,7 @@
 						
 					</div>
 				</div>
-				<div class="col-md-1">
-				</div>
+				
 
 			</div>
 
@@ -306,9 +300,9 @@
 
 		<!-- Footer Section Starts -->
 		<footer class="container-fluid d-flex justify-content-center d-grid gap-3  bg-primary py-3">
-	            <div>Privacy</div>
+	            <div>George Michael Aparece</div>
 	            <div>|</div>
-	            <div>Terms of Use</div>
+	            <div>Full Stack Web Developer</div>
 	            <div>|</div>
 	            <div>Copyright &copy; 2024</div>
 	        </footer>

@@ -31,6 +31,7 @@ nav	{
 
 /*Landing*/
 
+
 #landing {
 	background-image: url("./images/bg-img-nature.jfif");
 	background-repeat: no-repeat;
@@ -51,6 +52,11 @@ nav	{
 	font-size: 30px;
 }
 
+.contact-link {
+	width: 30px;
+	height: 30px;
+}
+
 /*Projects*/
 
 #projects {
@@ -61,11 +67,18 @@ nav	{
 }
 .project-image {
  	width: 500px !important;    
-    height: 300px;
+    height: 400px;
 }
 
 .project-heading {
     font-size: 1em;
+}
+
+.projects-border {
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 20px !important;
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
 }
 
 /*Tools*/
@@ -75,8 +88,9 @@ nav	{
 	border-radius: 20px !important;
 	backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    height: 400px;
+    height: 500px;
     align-items: center;
+
 }
 
 #tools {
@@ -101,13 +115,10 @@ nav	{
 	border-radius: 20px !important;
 	backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    align-items: center;
+    
 }
 
-.contact-link {
-	width: 50px;
-	height: 50px;
-}
+
 
 
 
