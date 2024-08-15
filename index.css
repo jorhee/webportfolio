@@ -1,0 +1,113 @@
+* {
+	font-family: Roboto, sans-serif;
+}
+
+#logoimg {
+	border-radius: 250px;
+}
+
+nav	{
+	position: fixed;
+	background-color: dimgray;
+}
+
+#navbar-name {
+	margin: 20px;
+}
+.nav-link{
+	margin: 0 15px;
+	font-weight: bold;
+	transition: .5s;
+}
+.nav-link:hover{
+	color: yellow !important;
+	padding: 10px;
+}
+.navbar-brand:hover{
+	color: yellow !important;
+	padding: 10px;
+}
+
+/*Landing*/
+
+#landing {
+	background-image: url("./images/bg-img-nature.jfif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+#landing-border {
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 20px !important;
+	backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+#landing-title {
+	font-family: Montserrat;
+	font-size: 30px;
+}
+
+/*Projects*/
+
+#projects {
+	background-image: url("./images/bg-img-glass3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.project-image {
+ 	width: 500px !important;    
+    height: 300px;
+}
+
+.project-heading {
+    font-size: 1em;
+}
+
+/*Tools*/
+
+.carousel-card {
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 20px !important;
+	backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    height: 400px;
+    align-items: center;
+}
+
+#tools {
+	background-image: url("./images/bg-img-nature2.jfif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+}
+
+
+/*Contact*/
+
+#contact {
+	background-image: url("./images/bg-img-glass2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.contact-card {
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 20px !important;
+	backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    align-items: center;
+}
+
+
+
+/*Footer*/
+
+footer {
+	font-weight: bold;
+	font-family: Montserrat;
+}
